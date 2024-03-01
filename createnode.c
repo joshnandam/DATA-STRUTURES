@@ -18,7 +18,7 @@ int main()
     struct node*current2=NULL;
     current2=(struct node*)malloc(sizeof (struct node*));\
     current2->data=30;
-    current2->data=NULL;
+    current2->next=NULL;
     head->next->next=current2;
     struct node*ptr=head;
     while(ptr->next!=NULL)
